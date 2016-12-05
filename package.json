@@ -1,0 +1,21 @@
+{
+  "name": "userprompt",
+  "version": "1.0.0",
+  "description": "Pokemans",
+  "main": "userprompt.js",
+  "dependencies": {
+    "geocoder": "^0.2.2",
+    "inquirer": "^1.2.3",
+    "request": "^2.79.0",
+    "weather-js": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pokemans"
+  ],
+  "author": "ryan",
+  "license": "ISC"
+}

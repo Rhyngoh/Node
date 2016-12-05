@@ -1,0 +1,16 @@
+function (err){
+	if(err){
+		console.log(err);
+	} else
+	if(moneyInTheBank === "deposit"){
+		deposit(getDatMoney);
+		console.log("+" + getDatMoney);
+	} else
+	if(moneyInTheBank === "withdraw"){
+		withdraw(getDatMoney);
+		console.log("-" + getDatMoney);
+	} else
+	if(moneyInTheBank === "total"){
+		console.log(total);
+	}
+}

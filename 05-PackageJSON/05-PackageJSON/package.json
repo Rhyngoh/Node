@@ -1,0 +1,20 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "The Weather and Stuff",
+  "main": "weatherdest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Weather",
+    "Bro",
+    "Thunder"
+  ],
+  "author": "Ryan",
+  "license": "ISC",
+  "dependencies": {
+    "geocoder": "^0.2.2",
+    "weather-js": "^1.0.2"
+  }
+}

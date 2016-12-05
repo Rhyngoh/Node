@@ -1,0 +1,30 @@
+Node Notes
+
+Javascript runtime environment, mainly as a basis for web servers
+Companies that use node: Yahoo, Dow jones, Microsoft, ZumbaFitness, Paypal, Heroku
+Fast implementation, easily extendable, reuses Javascript, single threaded async model
+Uses callbacks, no limit on number of requests and no bottleneck
+
+console.log(process.argv);
+//Add two command line arguments (numbers)
+console.log(parseFloat(process.argv[2]) + parseFloat(process.argv[3]));
+//Add two strings
+console.log(process.argv[2] + process.argv[3]);
+//Compare two strings
+console.log(process.argv[2]===process.argv[3]);
+
+exports.objectattr = {
+exports is an object, objectattr is an object item
+};
+var something = require("./sriracha.js");
+exports the exports.
+
+node package manager, share libraries npm install _____
+fs - file system
+.writeFile creates a new file with stuff or overwrites previous
+utf8 encoding
+.appendFile creates a new file or adds to an existing
+.readFile reads the file
+request
+
+inquirer .then
